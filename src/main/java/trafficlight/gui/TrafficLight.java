@@ -18,6 +18,7 @@ public class TrafficLight extends Light implements Observer {
     public boolean isOn(){
         return isOn;
     }
+
     //TODO implement a part of the pattern here
     @Override
     public void update() {

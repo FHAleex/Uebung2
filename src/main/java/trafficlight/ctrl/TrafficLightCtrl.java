@@ -19,7 +19,7 @@ public class TrafficLightCtrl {
 
     private boolean doRun = true;
 
-    private static TrafficLightCtrl instance = null; //SINGLETON PATTERN: Class variable to store instance
+    private static TrafficLightCtrl instance = null; //SINGLETON PATTERN: variable where the instance is storred
 
 
     public TrafficLightCtrl() {
@@ -31,7 +31,8 @@ public class TrafficLightCtrl {
         currentState.notifyObserver();
     }
 
-    public static TrafficLightCtrl getInstance(){ //SINGLETON PATTERN: Access method to retrieve instance
+    //SINGLETON PATTERN: checks if instance has storred an object, if not store a new one
+    public static TrafficLightCtrl getInstance(){
         if(instance==null) instance = new TrafficLightCtrl();
         return instance;
     }

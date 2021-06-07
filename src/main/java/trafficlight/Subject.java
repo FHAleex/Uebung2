@@ -3,6 +3,7 @@ package trafficlight;
 import java.util.ArrayList;
 import java.util.List;
 
+//Observer Pattern: Our Subject is the State class
 public class Subject {
     List<Observer> observerList = new ArrayList<>();
 
