@@ -22,4 +22,8 @@ public class Subject {
             o.update();
         }
     }
+
+   /* public List<Observer> getObserverList() {
+        return this.observerList;
+    }*/
 }
