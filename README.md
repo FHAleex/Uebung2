@@ -24,3 +24,6 @@ Happy coding!
 
 LINK: https://github.com/FHAleex/Uebung2.git
  
+/**
+ * Alex Babakhel | Zeljko Sekulic, Marcus Chvatal, Kevser Akpinar
+ */
